@@ -1,0 +1,52 @@
+*
+{
+	font-family: sans-serif;
+	color:grey;
+}
+
+a
+{
+	text-decoration: none;
+}
+a:linen
+{
+	text-decoration: underline;
+	color:grey;
+}
+#conteneur1
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin:20px;
+	padding: 10px;
+	height: 100px;
+}
+
+
+#conteneur2
+{
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+	height:400px;
+	margin: 20px;
+}
+#Barre_Recherche
+{
+	color:white;
+	border:1px solid,grey;
+	border-radius:20px;
+}
+
+#conteneur3
+{
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;
+	margin: 5px;
+	height: 100px;
+	margin:20px;
+	background-color: #DFE1E5;
+}
